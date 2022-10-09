@@ -10,10 +10,10 @@ function Login(props) {
         e.preventDefault();
         console.log('Submit');
         onLogin(username, password);
-        history.push("/");
+        history.push("/reactfinal-gh-pages");
       }
     const handleCancel = () => {
-      history.push("/");
+      history.push("/reactfinal-gh-pages");
     }
   
   return (
