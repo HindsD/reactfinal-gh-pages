@@ -13,14 +13,14 @@ const App = () => {
   ////////////////////////const apiEndpoint = "https://localhost:5001/jwt/api/country";
   ////////////////////////const hubEndpoint = "https://localhost:5001/medalsHub"
   ////////////////////////const usersEndpoint = "https://localhost:5001/api/users/login";
-  const apiEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/jwt/api/country";
-  const hubEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/medalsHub"
-  const usersEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/api/users/login";
+  // const apiEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/jwt/api/country";
+  // const hubEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/medalsHub"
+  // const usersEndpoint = "https://advanced-web-dwh-final.azurewebsites.net/api/users/login";
   
   // const apiEndpoint = "https://medalsapi.azurewebsites.net/api/country";
-  // const apiEndpoint = "https://medalsapi.azurewebsites.net/jwt/api/country";
-  // const hubEndpoint = "https://medalsapi.azurewebsites.net/medalsHub"
-  // const usersEndpoint = "https://medalsapi.azurewebsites.net/api/users/login";
+  const apiEndpoint = "https://medalsapi.azurewebsites.net/jwt/api/country";
+  const hubEndpoint = "https://medalsapi.azurewebsites.net/medalsHub"
+  const usersEndpoint = "https://medalsapi.azurewebsites.net/api/users/login";
   const [ countries, setCountries ] = useState([]);
   const [ connection, setConnection] = useState(null);
   const medals = useRef([
